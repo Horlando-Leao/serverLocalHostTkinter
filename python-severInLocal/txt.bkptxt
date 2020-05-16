@@ -1,0 +1,20 @@
+import os
+import platform
+import sys
+from datetime import datetime
+hoje = datetime.now()
+#apagarConsole = os.system('cls')if(platform.system()=="Windows")else(os.system('clear'))
+
+try:
+    from SimpleHTTPServer import SimpleHTTPRequestHandler as Handler
+    from socketserver import TCPServer as Server
+    #mostrar em tela
+    protocolo = ('[TCP] IMPORT - ({})'.format(Server))
+except ImportError:
+    from http.server import SimpleHTTPRequestHandler as Handler
+    from http.server import HTTPServer as Server
+    #mostrar em tela
+    procolo = ('[HTTP] IMPORT - ({})'.format(Server))
+
+data_atual = "{}/{}/{}".format(hoje.year, hoje.month, hoje.day)
+hora_atual = "{}/{}".format(hoje.hour ,hoje.minute)
