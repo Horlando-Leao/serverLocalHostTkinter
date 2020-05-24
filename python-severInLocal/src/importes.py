@@ -9,10 +9,10 @@ try:
     from SimpleHTTPServer import SimpleHTTPRequestHandler as Handler
     from socketserver import TCPServer as Server
     #mostrar em tela
-    protocolo = ('[TCP] IMPORT - ({})'.format(Server))
+    protocolo = print(('[TCP] IMPORT - ({})'.format(Server)))
 except ImportError:
     from http.server import SimpleHTTPRequestHandler as Handler
     from http.server import HTTPServer as Server
     #mostrar em tela
-    procolo = ('[HTTP] IMPORT - ({})'.format(Server))
+    procolo = print(('[HTTP] IMPORT - ({})'.format(Server)))
     
