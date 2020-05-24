@@ -10,7 +10,7 @@ def Janela():
     janela_1.configure()
 
 
-    def pegardados(DIR):
+    def getDateDir(DIR):
         pass
     
     #lIGAR SERVIDOR
@@ -26,7 +26,7 @@ def Janela():
     rotulo1.place(x=70, y=65)
     caixa1 = Entry(janela_1)
     caixa1.place(x=176, y=100, width=200)
-    botao3 = Button(janela_1, width=21, text='Cadastrar', command = lambda: pegardados(caixa1.get()))
+    botao3 = Button(janela_1, width=21, text='Cadastrar', command = lambda: getDateDir(caixa1.get()))
     botao3.place(x=176, y=180)
 
     #DADOS A SEREM EXIBIDO
