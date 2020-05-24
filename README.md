@@ -3,7 +3,7 @@ Servidor rodando em local host com interface gráfica de controle feito em tkint
 
 #requisitos
 >>> Python 3.5 ou superior.
->>> Um computador.(simples não!?).
+Um computador.(simples não!?).
 
 #funcionamento
 >>>
