@@ -1,8 +1,0 @@
-funcionamento:
-*certifique que voce tem python versão 3 ou superiro* 
-1 - coloque o seu projeto web dentro da pasta static
-2 - se voce estiver em ambiente windons 7 ou 10, apenas clique duas vezes no server-bkp
-3 - se voce estiver em ambiente linux abra seu shell de comando.
-3.1 - va até o local do diretorio do python-server
-3.2 - e digite python e nome do arquivo server-bkp
- 
