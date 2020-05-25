@@ -24,14 +24,16 @@ def Janela():
     #INPUT DO CAMINHO DIR
     rotulo1 = Label(janela_1, text="Caminho do diretório", font= "Arial 14")
     rotulo1.place(x=70, y=65)
+
     caixa1 = Entry(janela_1)
-    caixa1.place(x=176, y=100, width=200)
-    botao3 = Button(janela_1, width=21, text='Cadastrar', command = lambda: getDateDir(caixa1.get()))
-    botao3.place(x=176, y=180)
+    caixa1.place(x=176, y=100, width=200, height=25)
+    
+    botao3 = Button(janela_1, width=10, height=1 ,text='OK', command = lambda: getDateDir(caixa1.get()))
+    botao3.place(x=75, y=100)
 
     #DADOS A SEREM EXIBIDO
     rotulo2 = Label(janela_1, text="dados a ser exibidos", font= "Arial 14")
-    rotulo2.place(x=70, y=65)
+    rotulo2.place(x=70, y=250)
 
     janela_1.mainloop()
 
